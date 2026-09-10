@@ -12,3 +12,20 @@ recognition (UCF-101, ActivityNet) benchmarks demonstrate that SEEP consistently
 achieves state-of-the-art performance, improving accuracy by up to $3.36\%$ on
 CIFAR-100 and $2.35\%$ on CUB-200 while reducing catastrophic forgetting by
 over $50\%$ on long task sequences.
+
+---
+
+## Environment & Setup
+
+```bash
+conda create -n rainbow python=3.9 -y
+conda activate rainbow
+
+pip install -r requirements.txt
+```
+
+> **Note**  
+> All experiments were conducted under this environment.  
+> Minor version differences may lead to slightly different results.
+
+---
