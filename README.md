@@ -59,3 +59,10 @@ python main.py activitynet_20task
 > and reported the **average performance** in the paper.  
 
 ---
+
+## Acknowledgement
+
+This repository is built upon the codebase of **[RainbowPrompt](https://github.com/Kiseong0753/RainbowPrompt)**. 
+We thank the authors for their valuable research and for making their code publicly available.
+
+---
