@@ -1,5 +1,7 @@
 ## Spatially Enhanced Evolutionary Prompting for Class-Incremental Learning [ICONIP 2026]
 
+![SEEP Overview](./Overview.png)
+
 [Official PyTorch code]
 
 ## Abstract
