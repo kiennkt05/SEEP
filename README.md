@@ -2,8 +2,6 @@
 
 ![SEEP Overview](./Overview.png)
 
-[Official PyTorch code]
-
 ## Abstract
 Prompt-based Continual Learning (PCL) adapts frozen Vision Transformers to sequential tasks with high parameter efficiency. Existing methods suffer from two fundamental limitations: token-only evolution methods discard fine-grained spatial structures, while static spatial prompt pools incur capacity saturation and cross-task interference as the number of tasks grows. We propose Spatially Enhanced Evolutionary Prompting (SEEP), a hierarchical framework that unifies evolutionary adaptation across both token and spatial dimensions. SEEP introduces an Evolutionary Local Prompt mechanism that instantiates a dedicated task-specific generator for each new task while freezing all previous generators, explicitly preventing catastrophic forgetting at the pixel level. A Cumulative Spatial Similarity Combination strategy then dynamically aggregates historical spatial prompts based on local structural alignment with the input, enabling fine-grained knowledge transfer without a fixed-capacity pool. Complemented by a
 global frequency branch and a diversity-enhanced token-level prompt evolution, SEEP
