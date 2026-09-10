@@ -29,3 +29,33 @@ pip install -r requirements.txt
 > Minor version differences may lead to slightly different results.
 
 ---
+
+## Training
+
+```bash
+# CIFAR-100 (10 tasks & 20 tasks)
+python main.py cifar100_10task
+python main.py cifar100_20task
+
+# ImageNet-R (10 tasks & 20 tasks)
+python main.py imr_10task
+python main.py imr_20task
+
+# CUB-200-2011 (10 tasks & 20 tasks)
+python main.py cub_200_2011_10task
+python main.py cub_200_2011_20task
+
+# UCF-101 (10 tasks & 20 tasks)
+python main.py ucf101_10task
+python main.py ucf101_20task
+
+# ActivityNet (10 tasks & 20 tasks)
+python main.py activitynet_10task
+python main.py activitynet_20task
+```
+
+> **Note**  
+> For each setting, we conducted **three independent runs with different random seeds**  
+> and reported the **average performance** in the paper.  
+
+---
