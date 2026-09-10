@@ -18,8 +18,8 @@ over $50\%$ on long task sequences.
 ## Environment & Setup
 
 ```bash
-conda create -n rainbow python=3.9 -y
-conda activate rainbow
+conda create -n seep python=3.9 -y
+conda activate seep
 
 pip install -r requirements.txt
 ```
